@@ -8,7 +8,7 @@ export class AppController {
   @Get()
   @Render('index')
   index() {
-    return { message: "Hello WirVSVirus" };
+
   }
 /*
   @Get('/foo:id')
