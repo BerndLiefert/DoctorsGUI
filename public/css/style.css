@@ -4,6 +4,53 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media (max-device-width: 800px) {
+    body {
+        font-size: 3em;
+    }
+
+    main {
+        margin: 20px 0;
+        position: initial!important;
+        transform: none!important;
+    }
+
+    table {
+        width: 100%!important;
+    }
+
+    table > tr:first-child() > td {
+        color: red!important;
+    }
+/*
+    article, table {
+        width: 100%!important;
+    }
+
+    header {
+        width: 100%!important;
+    }
+
+    body, header, #menu, #menu > ul {
+        height: 100%;
+    }
+*/
+    #menu {
+        transform: none!important;
+        top: 0!important;
+        width: 100%;
+        padding: 20px!important;
+    }
+
+    #menu > ul {
+        margin-left: 20px;
+    }
+
+    #menu > ul > li {
+        text-align: left!important;
+    }
+}
+
 body {
     background: #ECECF0;
 }
@@ -21,6 +68,11 @@ main > p, main > h2 {
 
 h2 {
     padding: 20px;
+}
+
+#icon {
+    width: 1.5em;
+    height: 1.5em;
 }
 
 #logo {
