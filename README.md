@@ -1,7 +1,7 @@
 ## Description
 
-![][form.png]
-![][results.png]
+![](form.png)
+![](results.png)
 
 ### Unsers Idee
 Barrierefrei Variation, aufbauend auf dem Fragenkatalog der Charite, die aufgrund der angegeben Symtome eine Einschätzung bekommen, ob der Arztbesuch sinnvoll ist. Die erhaltene ID ermöglicht dann dem Arzt, die eingetragenen Symtome direkt online abzurufen.
