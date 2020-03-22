@@ -1,10 +1,8 @@
-import { Controller, Get, Render, Param } from '@nestjs/common';
+import { Controller, Get, Render } from '@nestjs/common';
 
 @Controller('overview')
 export class OverviewController {  
-    @Get(':id')
+    @Get()
     @Render('overview')
-    overview(@Param() params) {
-        console.log(params.id);
-    }
+    view() {}
 }
