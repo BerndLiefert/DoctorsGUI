@@ -20,7 +20,7 @@ main > p, main > h2 {
 }
 
 h2 {
-    margin: 10px;
+    padding: 20px;
 }
 
 #logo {
@@ -75,6 +75,7 @@ header > nav > ul > li > a {
 
 .button {
     padding: 10px;
+    margin: 10px 20px;
     border-radius: 10px;
     color: #FFFFFF;
     border: none;
@@ -92,6 +93,14 @@ input[type="text"] {
     background: #4A4EC7;
 }
 
+.red {
+    background: #FFA0A0;
+}
+
+.green {
+    background: #9BEDCA;
+}
+
 .center {
     text-align: center;
 }
@@ -102,4 +111,50 @@ input[type="text"] {
 
 p {
     margin: 20px;
+}
+
+table {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.paginator {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.paginator > li {
+    float: left;
+    padding: 10px;
+}
+
+.paginator > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.bubble {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
